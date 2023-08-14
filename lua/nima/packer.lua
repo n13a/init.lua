@@ -13,7 +13,6 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
-
     use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use ('ThePrimeagen/harpoon')
     use ('mbbill/undotree')
@@ -40,18 +39,17 @@ return require('packer').startup(function(use)
             -- Snippets
             {'L3MON4D3/LuaSnip'},
             {'rafamadriz/friendly-snippets'},
+
         }
     }
+    use ('glepnir/lspsaga.nvim') -- LSP UIs
     use {
         'numToStr/Comment.nvim',
         config = function()
             require('Comment').setup()
         end
     }
-    use {
-        "windwp/nvim-autopairs",
-        config = function() require("nvim-autopairs").setup {} end
-    }
+    use  ("windwp/nvim-autopairs")
     use ('windwp/nvim-ts-autotag')
 
     use {
@@ -67,4 +65,7 @@ return require('packer').startup(function(use)
         'nvim-lualine/lualine.nvim',
         requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     }
+    use ('BurntSushi/ripgrep')
+    use ('jose-elias-alvarez/null-ls.nvim') -- Use Neovim as a language server to inject LSP diagnostic, code actions and more via lua
+    use ('MunifTanjim/prettier.nvim') -- Prettier plugin for Neovim's built-in LSP client
 end)

@@ -135,6 +135,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
   },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
@@ -155,8 +160,12 @@ _G.packer_plugins = {
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-autopairs"] = {
-    config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
@@ -197,6 +206,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
+  },
+  ripgrep = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
@@ -220,10 +239,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
