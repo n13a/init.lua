@@ -34,3 +34,4 @@ vim.opt.winblend = 0
 
 vim.opt.laststatus = 1
 vim.opt.showmode = false
+

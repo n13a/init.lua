@@ -83,7 +83,8 @@ return require('packer').startup(function(use)
             show_trailing_blankline_indent = false,
         }
     }
-
-
     use ('norcalli/nvim-colorizer.lua')
+
+
 end)
+

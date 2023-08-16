@@ -51,3 +51,4 @@ vim.keymap.set("n", "<C-2>", "<C-w>l")
 vim.keymap.set("n", "<C-j>", "<C-w>j")
 vim.keymap.set("n", "<C-k>", "<C-w>k") ]]
 end)
+
