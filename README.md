@@ -1,4 +1,4 @@
-# Neovim Configuration with Custom Plugins
+# init.lua
 
 Welcome to my Neovim configuration repository! This repository contains my personal Neovim setup, including various plugins that enhance my coding experience. Feel free to explore and adapt this configuration to suit your preferences.
 
