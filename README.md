@@ -24,17 +24,16 @@ This Neovim configuration is tailored to provide a powerful and efficient editin
 
 3. Install the [packer.nvim](https://github.com/wbthomason/packer.nvim) plugin manager:
 
-   > Unix, Linux Installation:
+- Unix, Linux Installation:
 
 ```shell
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-If you use Arch Linux, there is also [an AUR
-package](https://aur.archlinux.org/packages/nvim-packer-git/).
+- If you use Arch Linux, there is also [an AUR package](https://aur.archlinux.org/packages/nvim-packer-git/).
 
-   > Windows Powershell Installation
+- Windows Powershell Installation:
 
 ```shell
 git clone https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
