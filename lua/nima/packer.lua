@@ -51,11 +51,16 @@ return require('packer').startup(function(use)
     }
     use  ("windwp/nvim-autopairs")
     use ('windwp/nvim-ts-autotag')
+    use ('RRethy/vim-illuminate')
 
-    use {
+    -- Neosolarized theme
+    --[[ use {
         'svrana/neosolarized.nvim',
         requires = {'tjdevries/colorbuddy.nvim'}
-    }
+    } ]]
+
+    -- Tokynight theme
+    use ("folke/tokyonight.nvim")
 
     use ('lewis6991/gitsigns.nvim')
 
@@ -68,4 +73,17 @@ return require('packer').startup(function(use)
     use ('BurntSushi/ripgrep')
     use ('jose-elias-alvarez/null-ls.nvim') -- Use Neovim as a language server to inject LSP diagnostic, code actions and more via lua
     use ('MunifTanjim/prettier.nvim') -- Prettier plugin for Neovim's built-in LSP client
+    use {
+        -- Add indentation guides even on blank lines
+        'lukas-reineke/indent-blankline.nvim',
+        -- Enable `lukas-reineke/indent-blankline.nvim`
+        -- See `:help indent_blankline.txt`
+        opts = {
+            char = '┊',
+            show_trailing_blankline_indent = false,
+        }
+    }
+
+
+    use ('norcalli/nvim-colorizer.lua')
 end)
