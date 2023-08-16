@@ -100,6 +100,6 @@ Feel free to customize this configuration to match your preferences. You can mod
 
 ## Acknowledgments
 
-I want to express my gratitude to the developers of the plugins included in this configuration. Their hard work has greatly improved Neovim experience. If you encounter any issues or have suggestions for improvements, please feel free to open an issue on this repository.
+These repository is inspired by [ThePrimeagen](https://github.com/ThePrimeagen/) and [craftzdog](https://github.com/craftzdog)'s Neovim configs. I also want to express my gratitude to the developers of the plugins included in this configuration. Their hard work has greatly improved Neovim experience. If you encounter any issues or have suggestions for improvements, please feel free to open an issue on this repository.
 
 Happy coding! 🚀
