@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>e", ':Neotree<CR>', { noremap = true, silent = true , desc = "Open File Tree"})
 vim.api.nvim_set_keymap('n', '<Leader>w', ':w<CR>', { noremap = true, silent = true , desc = "Save"})
 vim.api.nvim_set_keymap('n', '<Leader>q', ':q<CR>', { noremap = true, silent = true , desc = "Quit"})
 

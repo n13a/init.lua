@@ -85,6 +85,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["alpha-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\alpha-nvim",
+    url = "https://github.com/goolord/alpha-nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -154,6 +159,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["neo-tree.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Atlantic\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,

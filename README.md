@@ -53,6 +53,7 @@ This configuration comes with the following plugins:
 
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim)
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- [alpha-nvim](https://github.com/goolord/alpha-nvim)
 - [cmp-buffer](https://github.com/hrsh7th/cmp-buffer)
 - [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)
 - [cmp-nvim-lua](https://github.com/hrsh7th/cmp-nvim-lua)
@@ -67,6 +68,8 @@ This configuration comes with the following plugins:
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
 - [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim)
 - [mason.nvim](https://github.com/williamboman/mason.nvim)
+- [neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim)
+- [nui.nvim](https://github.com/MunifTanjim/nui.nvim)
 - [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim)
 - [nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 - [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
