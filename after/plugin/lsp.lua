@@ -17,8 +17,8 @@ local cmp_mappings = lsp.defaults.cmp_mappings({
 })
 
 -- Uncomment the following lines to disable tab completion
---[[ cmp_mappings['<Tab>'] = nil
-cmp_mappings['<S-Tab>'] = nil ]]
+cmp_mappings['<Tab>'] = nil
+cmp_mappings['<S-Tab>'] = nil
 
 lsp.setup_nvim_cmp({
 	mapping = cmp_mappings

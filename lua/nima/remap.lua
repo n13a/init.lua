@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", ':Neotree<CR>', { noremap = true, silent = true , desc = "Open File Tree"})
+vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 vim.api.nvim_set_keymap('n', '<Leader>w', ':w<CR>', { noremap = true, silent = true , desc = "Save"})
 vim.api.nvim_set_keymap('n', '<Leader>q', ':q<CR>', { noremap = true, silent = true , desc = "Quit"})
 
@@ -39,11 +39,14 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 
 vim.keymap.set("n", "<leader>vpp", "<cmd>e C:/Users/Atlantic/AppData/Local/nvim/lua/nima/packer.lua<CR>", {desc = "Open Packer.lua file"});
 
+
 -- Needs CellularAutomaton plugin
 -- vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
+
+
 
 -- moving between windows
 --[[ Vim.keymap.set("n", "<C-1>", "<C-w>h")

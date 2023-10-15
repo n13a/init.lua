@@ -87,7 +87,8 @@ return require('packer').startup(function(use)
 
     use('goolord/alpha-nvim')
 
-    use {
+
+    --[[ use {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v3.x",
         requires = {
@@ -95,5 +96,5 @@ return require('packer').startup(function(use)
             "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
             "MunifTanjim/nui.nvim",
         }
-    }
+    } ]]
 end)
