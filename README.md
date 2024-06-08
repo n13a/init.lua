@@ -83,5 +83,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 ## Acknowledgements
 
 - [tjdevries' kickstart config](https://github.com/nvim-lua/kickstart.nvim)
-
----
