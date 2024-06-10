@@ -195,6 +195,22 @@ vim.keymap.set('x', '<leader>p', [["_dP]], { desc = 'Paste text and retain it' }
 
 vim.keymap.set('n', '<leader>s', [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = 'Replace every instance of the word that you are on' })
 
+vim.keymap.set('n', '<leader>to', ':tabnew<CR>', { noremap = true, silent = true, desc = 'Create New Tab' })
+
+vim.keymap.set('n', '<leader>tc', ':tabclose<CR>', { noremap = true, silent = true, desc = 'Close Current Tab' })
+
+vim.keymap.set('n', '<leader>tn', ':tabnext<CR>', { noremap = true, silent = true, desc = 'Go to Next Tab' })
+
+vim.keymap.set('n', '<leader>tp', ':tabprevious<CR>', { noremap = true, silent = true, desc = 'Go to Previous Tab' })
+
+-- NOTE: Git commands
+
+vim.keymap.set('n', '<leader>gn', ':Git next_hunk<CR>', { noremap = true, silent = true, desc = 'Show Next Hunk' })
+
+vim.keymap.set('n', '<leader>gp', ':Git prev_hunk<CR>', { noremap = true, silent = true, desc = 'Show Previous Hunk' })
+
+vim.keymap.set('n', '<leader>gh', ':Git preview_hunk<CR>', { noremap = true, silent = true, desc = 'Preview Hunk' })
+
 --[[ -- NOTE: Trouble commands
 -- Lua
 vim.keymap.set('n', '<leader>od', function()
@@ -807,37 +823,7 @@ require('lazy').setup({
       }
     end,
   },
-  --[[ {
-    'rebelot/kanagawa.nvim',
-    opts = {
-      compile = false, -- enable compiling the colorscheme
-      undercurl = true, -- enable undercurls
-      commentStyle = { italic = true },
-      functionStyle = {},
-      keywordStyle = { italic = true },
-      statementStyle = { bold = true },
-      typeStyle = {},
-      transparent = true, -- do not set background color
-      dimInactive = true, -- dim inactive window `:h hl-NormalNC`
-      terminalColors = true, -- define vim.g.terminal_color_{0,17}
-      colors = { -- add/modify theme and palette colors
-        palette = {},
-        theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
-      },
-      overrides = function(colors) -- add/modify highlights
-        return {}
-      end,
-      theme = 'wave', -- Load "wave" theme when 'background' option is not set
-      background = { -- map the value of 'background' option to a theme
-        dark = 'wave', -- try "dragon" !
-        light = 'lotus',
-      },
-    },
-    init = function()
-      vim.cmd.colorscheme 'kanagawa'
-    end,
-  }, ]]
-  --
+
   -- { -- You can easily change to a different colorscheme.
   --   -- Change the name of the colorscheme plugin below, and then
   --   -- change the command in the config to whatever the name of that colorscheme is.
@@ -861,9 +847,8 @@ require('lazy').setup({
   --     -- Load the colorscheme here.
   --     -- Like many other themes, this one has different styles, and you could load
   --     -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-  --     -- vim.cmd.colorscheme 'habamax'
-  --     --vim.cmd.colorscheme 'tokyonight-moon'
-  --     vim.api.nvim_set_hl(0, 'LineNr', { fg = '#6772a6', bold = true })
+  --     vim.cmd.colorscheme 'tokyonight-storm'
+  --     vim.api.nvim_set_hl(0, 'LineNr', { fg = '#4d2525', bold = true })
   --     --[[ vim.api.nvim_set_hl(0, 'LineNrAbove', { fg = '#2c77a3', bold = true })
   --     vim.api.nvim_set_hl(0, 'LineNr', { fg = 'white', bold = true })
   --     vim.api.nvim_set_hl(0, 'LineNrBelow', { fg = '#FB508F', bold = true }) ]]
